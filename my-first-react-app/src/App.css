@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+.main{
+  display: flex;
+  
+}
+
+.personal-info, #education-info, .job-info{
+ background-color: white;
+ border-radius: 20px;
+ padding:20px;
+ padding-top: 10px;
+ margin: 10px;
+ width: 100%;
+}
+
+.preview-section
+{
+  width: 21cm;
+  height: 29.7cm;
+  background-color: white;
+  padding:20px;
+  padding-top: 10px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+

@@ -19,10 +19,10 @@ const PersonalDetails = () => {
   };
 
   return (
-    <div>
+    <div className='personal-info'>
       <h2>Personal Details</h2>
 
-      <h3>Full Name</h3>
+      <label>Full Name</label>
       <input name='fullName' type='text' placeholder='Full Name' onChange={handleChange}></input>
 
       <h3>Email</h3>

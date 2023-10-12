@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #eceaea;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,6 +34,26 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  
+}
+
+h2{
+  color: rgb(49, 47, 47);
+}
+
+h3{
+  color: rgb(49, 47, 47);
+
+}
+
+input{
+  color: black;
+  background-color: rgb(226, 223, 223);
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  border: none;
+  
 }
 
 button {
@@ -66,4 +86,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+textarea {
+  resize: vertical;
+  /* prevents horizontal resize by setting a fixed width */
+  width: 300px; /* or any specific value */
+  height: 100px;
 }
